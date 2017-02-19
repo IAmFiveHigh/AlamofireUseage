@@ -18,8 +18,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
     
 //        textRequest3()
-        textImageDownload()
-        
+//        textImageDownload()
+        textTimeoutInterval()
     }
     
     fileprivate func textRequest1 () {
@@ -111,6 +111,18 @@ class ViewController: UIViewController {
                     let image = UIImage(data: data)
                 }
         }
+    }
+    
+    fileprivate func textTimeoutInterval() {
+        
+        let configuration = URLSessionConfiguration.default
+        configuration.timeoutIntervalForRequest = 10
+        
+        let sessionManager = Alamofire.SessionManager(configuration: configuration)
+        sessionManager.request(PURL + para, method: .post, parameters: nil, encoding: URLEncoding.default, headers: nil).responseJSON(completionHandler: { response in
+            print(response.result.description)
+            print(response.result.value)
+        })
     }
     
 }
