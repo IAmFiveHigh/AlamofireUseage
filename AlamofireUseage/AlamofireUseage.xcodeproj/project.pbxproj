@@ -13,6 +13,7 @@
 		4600D38F1E544531003F3B48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4600D38D1E544531003F3B48 /* Main.storyboard */; };
 		4600D3911E544531003F3B48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4600D3901E544531003F3B48 /* Assets.xcassets */; };
 		4600D3941E544531003F3B48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4600D3921E544531003F3B48 /* LaunchScreen.storyboard */; };
+		461C1F671E5C7E0600BB6446 /* 图片.zip in Resources */ = {isa = PBXBuildFile; fileRef = 461C1F661E5C7E0600BB6446 /* 图片.zip */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		4600D3901E544531003F3B48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4600D3931E544531003F3B48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4600D3951E544531003F3B48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		461C1F661E5C7E0600BB6446 /* 图片.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "图片.zip"; sourceTree = "<group>"; };
 		CC180B0640750BC0C9704218 /* Pods-AlamofireUseage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlamofireUseage.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlamofireUseage/Pods-AlamofireUseage.debug.xcconfig"; sourceTree = "<group>"; };
 		EBE7E11CACEF4AE023C570F4 /* Pods-AlamofireUseage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlamofireUseage.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlamofireUseage/Pods-AlamofireUseage.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -43,6 +45,7 @@
 		4600D37D1E544531003F3B48 = {
 			isa = PBXGroup;
 			children = (
+				461C1F661E5C7E0600BB6446 /* 图片.zip */,
 				4600D3881E544531003F3B48 /* AlamofireUseage */,
 				4600D3871E544531003F3B48 /* Products */,
 				F3577DD2C3152664000B5A13 /* Pods */,
@@ -151,6 +154,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				461C1F671E5C7E0600BB6446 /* 图片.zip in Resources */,
 				4600D3941E544531003F3B48 /* LaunchScreen.storyboard in Resources */,
 				4600D3911E544531003F3B48 /* Assets.xcassets in Resources */,
 				4600D38F1E544531003F3B48 /* Main.storyboard in Resources */,
